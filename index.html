@@ -258,14 +258,14 @@ html,body{
 .ring{position:absolute;right:-28px;bottom:-28px;width:96px;height:96px;border-radius:50%;border:.5px solid rgba(255,255,255,.055);pointer-events:none;z-index:0}
 .ring::after{content:'';position:absolute;inset:13px;border-radius:50%;border:.5px solid rgba(255,255,255,.04)}
 .ring2{position:absolute;left:-20px;top:-20px;width:60px;height:60px;border-radius:50%;border:.5px solid rgba(255,255,255,.04);pointer-events:none;z-index:0}
-.card-inner{position:relative;z-index:2}
+.card-inner{position:relative;z-index:2;pointer-events:auto}
 .card-header{display:flex;align-items:center;gap:9px;margin-bottom:.7rem}
 .card-icon{width:28px;height:28px;background:rgba(255,255,255,.055);border:.5px solid rgba(255,255,255,.09);border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:13px}
 .card-title{font-size:.93rem;font-weight:600;color:var(--text-primary);letter-spacing:-.01em}
 .card-desc{font-size:.79rem;color:var(--text-secondary);line-height:1.5;margin-bottom:1rem}
 .btn-group{display:flex;flex-direction:column;gap:6px}
 .btn-row{display:flex;gap:6px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:var(--btn-bg);border:.5px solid var(--btn-border);border-radius:9px;padding:9px 15px;font-size:.8rem;font-weight:500;color:var(--text-primary);cursor:pointer;transition:background .18s,border-color .18s,transform .12s;text-decoration:none;font-family:'Instrument Sans',sans-serif;letter-spacing:.005em;flex:1;box-shadow:0 1px 0 rgba(255,255,255,.06) inset}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:var(--btn-bg);border:.5px solid var(--btn-border);border-radius:9px;padding:9px 15px;font-size:.8rem;font-weight:500;color:var(--text-primary);cursor:pointer;transition:background .18s,border-color .18s,transform .12s;text-decoration:none;font-family:'Instrument Sans',sans-serif;letter-spacing:.005em;flex:1;box-shadow:0 1px 0 rgba(255,255,255,.06) inset;position:relative;z-index:10}
 .btn:hover{background:var(--btn-hover);border-color:rgba(255,255,255,.20)}
 .btn:active{transform:scale(.975)}
 .btn-full{flex:unset;width:100%}
